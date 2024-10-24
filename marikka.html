@@ -1,11 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Introducción a la programación competitiva.">
+    <meta name="keywords" content="programación, competitiva, algoritmos, concursos">
+    <meta name="author" content="Tu Nombre">
+    <title>Programación Competitiva | Desafía tu mente</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo del Header */
+        header {
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
+        /* Estilo del Menú de Navegación */
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        /* Sección de Contenido */
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section .card {
+            background-color: white;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.8;
+            color: #555;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilo del Footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Estilos Responsivos */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 20px 10px;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+<header>
+    <h1>Programación Competitiva</h1>
+    <p>Desafía tu mente y mejora tus habilidades de codificación</p>
+</header>
+
+<nav>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#concursos">Concursos Populares</a>
+</nav>
+
+<section>
+    <div class="card" id="que-es">
+        <h2>¿Qué es la Programación Competitiva?</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Programación Competitiva">
+        <p>La programación competitiva es un deporte mental donde los participantes deben resolver problemas algorítmicos bajo restricciones de tiempo. Es una excelente manera de mejorar tus habilidades de codificación, pensamiento lógico y optimización de algoritmos.</p>
+    </div>
+
+    <div class="card" id="beneficios">
+        <h2>Beneficios de la Programación Competitiva</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Beneficios de la Programación Competitiva">
+        <ul>
+            <li>Mejora tu habilidad para resolver problemas complejos.</li>
+            <li>Desarrolla una mentalidad analítica y lógica.</li>
+            <li>Te prepara para entrevistas técnicas en grandes empresas tecnológicas.</li>
+            <li>Fomenta el aprendizaje de nuevos algoritmos y estructuras de datos.</li>
+        </ul>
+    </div>
+
+    <div class="card" id="recursos">
+        <h2>Recursos para Aprender</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Recursos de Programación Competitiva">
+        <p>Existen múltiples plataformas donde puedes aprender y practicar programación competitiva. Algunos recursos recomendados incluyen:</p>
+        <ul>
+            <li><a href="https://codeforces.com/" target="_blank">Codeforces</a>: Una plataforma popular para practicar y competir.</li>
+            <li><a href="https://leetcode.com/" target="_blank">LeetCode</a>: Excelente para mejorar tus habilidades de entrevista técnica.</li>
+            <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>: Ofrece una gran variedad de problemas y competiciones.</li>
+            <li><a href="https://www.topcoder.com/" target="_blank">TopCoder</a>: Una de las plataformas más antiguas para programación competitiva.</li>
+        </ul>
+    </div>
+
+    <div class="card" id="concursos">
+        <h2>Concursos Populares de Programación Competitiva</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Concursos de Programación">
+        <p>Algunos de los concursos más populares a nivel mundial son:</p>
+        <ul>
+            <li><strong>ACM International Collegiate Programming Contest (ICPC):</strong> Una de las competencias más prestigiosas a nivel mundial.</li>
+            <li><strong>Google Code Jam:</strong> Organizado por Google, con problemas de alta dificultad.</li>
+            <li><strong>Facebook Hacker Cup:</strong> Un concurso anual que pone a prueba las habilidades algorítmicas.</li>
+            <li><strong>Kick Start:</strong> Otra competencia organizada por Google, orientada a desarrolladores que quieren aprender.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Programación Competitiva. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
