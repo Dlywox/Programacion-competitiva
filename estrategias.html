@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Recursos para mejorar en la programación competitiva.">
-    <meta name="keywords" content="programación, competitiva, recursos, tutoriales, aprendizaje">
+    <meta name="description" content="Estrategias para mejorar en la programación competitiva.">
+    <meta name="keywords" content="programación, competitiva, estrategias, mejorar habilidades">
     <meta name="author" content="Tu Nombre">
-    <title>Recursos para Programación Competitiva</title>
+    <title>Estrategias de Programación Competitiva</title>
     <style>
         /* Estilos Generales */
         body {
@@ -125,7 +125,7 @@
             margin-top: 5px;
         }
 
-        /* Sección de Contenido */
+        /* Sección de Estrategias */
         section {
             padding: 40px 20px;
             max-width: 1200px;
@@ -138,35 +138,28 @@
             margin-bottom: 20px;
         }
 
-        section .resource-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        section .resource-card {
+        section .strategy-card {
             background-color: white;
             padding: 20px;
-            flex: 1 1 calc(33.333% - 20px);
+            margin: 15px 0;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        section .resource-card:hover {
+        section .strategy-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
         }
 
-        section .resource-card a {
-            font-size: 1.2rem;
-            font-weight: bold;
-            display: block;
+        section .strategy-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #007bff;
         }
 
-        section .resource-card p {
-            margin: 10px 0 0;
-            font-size: 0.9rem;
+        section .strategy-card p {
+            line-height: 1.6;
             color: #555;
         }
 
@@ -196,8 +189,9 @@
         <li><a href="index.html">¿Qué es?</a></li>
         <li><a href="beneficios.html">Beneficios</a></li>
         <li><a href="recursos.html">Recursos</a></li>
-        <li><a href="concursos.html">Concursos Populares</a></li>
-        <li><a href="estrategias.html">Estrategias</a></li>
+        <li><a href="recursos_populares.html">Recursos Populares</a></li>
+        <li><a href="#concursos">Concursos Populares</a></li>
+        <li><a href="#estrategias">Estrategias</a></li>
     </ul>
     <div class="menu-icon" onclick="toggleMenu()">
         <div></div>
@@ -208,38 +202,42 @@
 
 <!-- Header -->
 <header>
-    <h1>Recursos para Programación Competitiva</h1>
-    <p>Mejora tus habilidades con estos recursos</p>
+    <h1>Estrategias en Programación Competitiva</h1>
+    <p>Consejos y tácticas para mejorar tu rendimiento en competiciones</p>
 </header>
 
-<!-- Sección de Recursos -->
+<!-- Sección de Estrategias -->
 <section>
-    <h2>Recursos Recomendados</h2>
-    <div class="resource-list">
-        <div class="resource-card">
-            <a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/" target="_blank">GeeksforGeeks: Fundamentos de Algoritmos</a>
-            <p>Una guía completa para aprender algoritmos y estructuras de datos.</p>
-        </div>
-        <div class="resource-card">
-            <a href="https://leetcode.com/" target="_blank">LeetCode</a>
-            <p>Plataforma popular para practicar preguntas de entrevistas y mejorar tus habilidades de resolución de problemas.</p>
-        </div>
-        <div class="resource-card">
-            <a href="https://www.codeforces.com/" target="_blank">Codeforces</a>
-            <p>Una de las comunidades más grandes de programación competitiva, con concursos regulares y problemas para practicar.</p>
-        </div>
-        <div class="resource-card">
-            <a href="https://www.hackerrank.com/domains/tutorials/10-days-of-algorithms" target="_blank">HackerRank: 10 Días de Algoritmos</a>
-            <p>Serie de tutoriales que cubren los fundamentos de los algoritmos en solo 10 días.</p>
-        </div>
-        <div class="resource-card">
-            <a href="https://cp-algorithms.com/" target="_blank">CP-Algorithms</a>
-            <p>Un excelente sitio para aprender algoritmos específicos usados en competiciones de programación.</p>
-        </div>
-        <div class="resource-card">
-            <a href="https://www.topcoder.com/" target="_blank">TopCoder</a>
-            <p>Plataforma histórica para competiciones de programación y desafíos de código.</p>
-        </div>
+    <h2>Principales Estrategias</h2>
+
+    <div class="strategy-card">
+        <h3>1. Lee el Problema Cuidadosamente</h3>
+        <p>Antes de comenzar a codificar, asegúrate de entender completamente el problema. Lee varias veces y destaca las partes clave. Esto evitará errores costosos y pérdida de tiempo.</p>
+    </div>
+
+    <div class="strategy-card">
+        <h3>2. Planifica tu Solución</h3>
+        <p>Antes de escribir código, dedica unos minutos a planificar tu enfoque. Considera qué algoritmos y estructuras de datos son más adecuados para el problema. Un buen plan puede ahorrarte tiempo en la implementación.</p>
+    </div>
+
+    <div class="strategy-card">
+        <h3>3. Comienza por lo Sencillo</h3>
+        <p>Si el problema tiene múltiples partes, empieza resolviendo primero la más sencilla. Esto te dará confianza y te permitirá obtener puntos rápidamente mientras trabajas en las partes más complejas.</p>
+    </div>
+
+    <div class="strategy-card">
+        <h3>4. Usa Test Cases</h3>
+        <p>Antes de enviar tu solución, prueba tu código con diferentes casos de prueba. Esto te ayudará a identificar errores y asegurarte de que tu solución es robusta.</p>
+    </div>
+
+    <div class="strategy-card">
+        <h3>5. Aprende de los Errores</h3>
+        <p>Después de cada competencia, revisa tu desempeño. Analiza los errores que cometiste y busca soluciones más eficientes. Esto te ayudará a mejorar en futuras competiciones.</p>
+    </div>
+
+    <div class="strategy-card">
+        <h3>6. Participa en Grupos de Estudio</h3>
+        <p>Unirte a grupos de estudio o comunidades puede ser muy beneficioso. Puedes aprender de otros, intercambiar estrategias y recibir retroalimentación sobre tus soluciones.</p>
     </div>
 </section>
 
