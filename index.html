@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción del tema de la programación competitiva.">
+    <meta name="keywords" content="programación, competitiva, aprender, beneficios">
+    <meta name="author" content="Tu Nombre">
+    <title>¿Qué es la Programación Competitiva?</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #e9ebf0, #f0f2f5);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Estilos de Enlaces */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo del Header */
+        header {
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
+        /* Barra de Navegación */
+        nav {
+            background: linear-gradient(90deg, #343a40, #007bff);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 1rem;
+            padding: 10px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Icono Menú para Móviles */
+        .menu-icon {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .menu-icon div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+
+        /* Menú Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background: linear-gradient(90deg, #343a40, #007bff);
+                width: 100%;
+                height: 100vh;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                display: none;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 15px 0;
+            }
+
+            .menu-icon {
+                display: flex;
+            }
+        }
+
+        /* Sección de Contenido */
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.8;
+            color: #555;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* Estilo del Footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de Navegación -->
+<nav>
+    <div class="logo">
+        <a href="#">Logo</a>
+    </div>
+    <ul>
+        <li><a href="index.html">¿Qué es?</a></li>
+        <li><a href="beneficios.html">Beneficios</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#concursos">Concursos Populares</a></li>
+        <li><a href="#estrategias">Estrategias</a></li>
+    </ul>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header>
+    <h1>¿Qué es la Programación Competitiva?</h1>
+    <p>Una forma de mejorar tus habilidades resolviendo problemas algorítmicos.</p>
+</header>
+
+<!-- Sección de Contenido -->
+<section id="que-es">
+    <h2>¿Qué es la Programación Competitiva?</h2>
+    <p>La programación competitiva es una disciplina en la que los participantes intentan resolver problemas algorítmicos utilizando la programación. Se realizan competiciones en línea o presenciales, donde los concursantes tienen que resolver una serie de problemas en un tiempo limitado.</p>
+    <img src="https://via.placeholder.com/800x400" alt="Programación Competitiva">
+    
+    <h2>Importancia de la Programación Competitiva</h2>
+    <p>Desarrolla habilidades cruciales como la capacidad de descomponer problemas complejos, optimizar soluciones y mejorar el tiempo de ejecución del código. También es una excelente preparación para entrevistas técnicas en empresas tecnológicas.</p>
+    <img src="https://via.placeholder.com/800x400" alt="Importancia de la Programación">
+    
+    <h2>Plataformas Populares</h2>
+    <p>Algunas plataformas populares para la programación competitiva incluyen <a href="https://codeforces.com/" target="_blank">Codeforces</a>, <a href="https://www.topcoder.com/" target="_blank">TopCoder</a>, y <a href="https://leetcode.com/" target="_blank">LeetCode</a>. Estas plataformas ofrecen concursos regulares donde puedes poner a prueba tus habilidades.</p>
+    <img src="https://via.placeholder.com/800x400" alt="Plataformas de Programación Competitiva">
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Programación Competitiva. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navUl = document.querySelector('nav ul');
+        navUl.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
